@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suite2,,,,2022-05-16 11:21:26,2022-05-16 11:21:29,3.751s,PASSED
+,,,,,,,
+Test Cases/Day1/RunAPI,,,,2022-05-16 11:21:26,2022-05-16 11:21:29,3.270s,PASSED
+"sendRequest(findTestObject(""API/GetUserList""))",,,,2022-05-16 11:21:27,2022-05-16 11:21:29,2.675s,PASSED
