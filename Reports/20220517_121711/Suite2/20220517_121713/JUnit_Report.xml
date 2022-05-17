@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Suite2" time="3.758" tests="1" failures="0" errors="0">
+   <testsuite name="Suite2" tests="1" failures="0" errors="0" time="3.758" skipped="0" timestamp="2022-05-17 12:17:19" hostname="Administrator - host.docker.internal" id="Test Suites/Suite2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Projects\\Katalon\\May2022_TrainingDemo_1\\Reports\\20220517_121711\\Suite2\\20220517_121713"/>
+         <property name="logFiles" value="E:\\Projects\\Katalon\\May2022_TrainingDemo_1\\Reports\\20220517_121711\\Suite2\\20220517_121713\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - host.docker.internal"/>
+         <property name="hostAddress" value="172.31.16.130"/>
+         <property name="os" value="Windows Server 2019 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+      </properties>
+      <testcase name="Test Cases/Day1/RunAPI" time="3.039" classname="Test Cases/Day1/RunAPI" status="PASSED">
+         <system-out><![CDATA[2022-05-17 12:17:20 - [TEST_CASE][PASSED] - Test Cases/Day1/RunAPI: Test Cases/Day1/RunAPI
+
+2022-05-17 12:17:21 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API/GetUserList")): Send request successfully
+
+2022-05-17 12:17:23 - [MESSAGE][INFO] - HAR: E:\Projects\Katalon\May2022_TrainingDemo_1\Reports\20220517_121711\Suite2\20220517_121713\requests\main\0.har
+
+2022-05-17 12:17:23 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-17 12:17:19 - [TEST_SUITE][PASSED] - Suite2: Test Cases/Day1/RunAPI]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
