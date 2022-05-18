@@ -5,7 +5,7 @@ pipeline {
         stage('Clone Git Project') {
             steps {
                 echo 'Cloning Katalon project from Repository'
-                git 'https://github.com/Raghav-Pal/May2022_Katalon_TrainingDemo1'
+//              //git 'https://github.com/Raghav-Pal/May2022_Katalon_TrainingDemo1'
             }
         }
          stage('Test') {
