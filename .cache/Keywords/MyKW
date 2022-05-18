@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "A207F557E408CB9B7D4435BD3D3F5E72",
+  "keywordClasses": [
+    {
+      "name": "MyKW",
+      "keywordMethods": [
+        {
+          "name": "refreshBrowser",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

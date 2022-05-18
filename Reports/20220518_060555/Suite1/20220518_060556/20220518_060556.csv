@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suite1,Chrome 101.0.4951.67,,,2022-05-18 06:06:08,2022-05-18 06:06:27,18.758s,PASSED
+,,,,,,,
+Test Cases/Day1/LoginTest,Chrome 101.0.4951.67,,,2022-05-18 06:06:09,2022-05-18 06:06:27,17.684s,PASSED
+"openBrowser("""")",Chrome 101.0.4951.67,,,2022-05-18 06:06:11,2022-05-18 06:06:22,10.779s,PASSED
+"navigateToUrl(""https://trytestingthis.netlify.app/"")",Chrome 101.0.4951.67,,,2022-05-18 06:06:22,2022-05-18 06:06:22,0.670s,PASSED
+"setText(findTestObject(""Object Repository/Page_Try Testing This/input_Username_uname""), ""test"")",Chrome 101.0.4951.67,,,2022-05-18 06:06:22,2022-05-18 06:06:24,1.483s,PASSED
+"setText(findTestObject(""Object Repository/Page_Try Testing This/input_Password_pwd""), ""test"")",Chrome 101.0.4951.67,,,2022-05-18 06:06:24,2022-05-18 06:06:25,0.807s,PASSED
+"click(findTestObject(""Object Repository/Page_Try Testing This/input""))",Chrome 101.0.4951.67,,,2022-05-18 06:06:25,2022-05-18 06:06:26,1.053s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Login Success/h2_Login Successful )""), ""Login Successful :)"")",Chrome 101.0.4951.67,,,2022-05-18 06:06:26,2022-05-18 06:06:26,0.424s,PASSED
+closeBrowser(),Chrome 101.0.4951.67,,,2022-05-18 06:06:26,2022-05-18 06:06:27,0.788s,PASSED

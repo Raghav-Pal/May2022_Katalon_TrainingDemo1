@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Collection1" time="23.527" tests="4" failures="0" errors="0">
+   <testsuite name="Suite1" tests="1" failures="0" errors="0" time="21.13" skipped="0" timestamp="2022-05-18 06:03:33" hostname="Administrator - host.docker.internal" id="Test Suites/Suite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Projects\\Katalon\\May2022_TrainingDemo_1\\Reports\\20220518_060321\\Suite1\\20220518_060322"/>
+         <property name="logFiles" value="E:\\Projects\\Katalon\\May2022_TrainingDemo_1\\Reports\\20220518_060321\\Suite1\\20220518_060322\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - host.docker.internal"/>
+         <property name="os" value="Windows Server 2019 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 101.0.4951.67"/>
+         <property name="hostAddress" value="172.31.16.130"/>
+         <property name="sessionId" value="1f4a7208d80175ccef74e31a3cc636db"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=USE_SYSTEM, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows Server 2019"/>
+      </properties>
+      <testcase name="Test Cases/Day1/LoginTest" time="20.713" classname="Test Cases/Day1/LoginTest" status="PASSED">
+         <system-out><![CDATA[2022-05-18 06:03:33 - [TEST_CASE][PASSED] - Test Cases/Day1/LoginTest: Test Cases/Day1/LoginTest
+
+2022-05-18 06:03:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-18 06:03:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-18 06:03:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-18 06:03:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-18 06:03:47 - [TEST_STEP][PASSED] - navigateToUrl("https://trytestingthis.netlify.app/"): Navigate to 'https://trytestingthis.netlify.app/' successfully
+
+2022-05-18 06:03:47 - [MESSAGE][PASSED] - Navigate to 'https://trytestingthis.netlify.app/' successfully
+
+2022-05-18 06:03:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Try Testing This/input_Username_uname"), "test"): Text 'test' is set on object 'Object Repository/Page_Try Testing This/input_Username_uname'
+
+2022-05-18 06:03:50 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_Try Testing This/input_Username_uname'
+
+2022-05-18 06:03:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Try Testing This/input_Password_pwd"), "test"): Text 'test' is set on object 'Object Repository/Page_Try Testing This/input_Password_pwd'
+
+2022-05-18 06:03:52 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_Try Testing This/input_Password_pwd'
+
+2022-05-18 06:03:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Try Testing This/input")): Object: 'Object Repository/Page_Try Testing This/input' is clicked on
+
+2022-05-18 06:03:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Try Testing This/input' is clicked on
+
+2022-05-18 06:03:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Login Success/h2_Login Successful )"), "Login Successful :)"): Actual text and expected text of test object 'Object Repository/Page_Login Success/h2_Login Successful )' are matched.
+
+2022-05-18 06:03:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Login Success/h2_Login Successful )' are matched.
+
+2022-05-18 06:03:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-18 06:03:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-18 06:03:33 - [TEST_SUITE][PASSED] - Suite1: Test Cases/Day1/LoginTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="Suite2" tests="1" failures="0" errors="0" time="9.509" skipped="0" timestamp="2022-05-18 06:03:39" hostname="Administrator - host.docker.internal" id="Test Suites/Suite2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Projects\\Katalon\\May2022_TrainingDemo_1\\Reports\\20220518_060321\\Suite2\\20220518_060324"/>
+         <property name="logFiles" value="E:\\Projects\\Katalon\\May2022_TrainingDemo_1\\Reports\\20220518_060321\\Suite2\\20220518_060324\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - host.docker.internal"/>
+         <property name="hostAddress" value="172.31.16.130"/>
+         <property name="os" value="Windows Server 2019 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+      </properties>
+      <testcase name="Test Cases/Day1/RunAPI" time="9.161" classname="Test Cases/Day1/RunAPI" status="PASSED">
+         <system-out><![CDATA[2022-05-18 06:03:39 - [TEST_CASE][PASSED] - Test Cases/Day1/RunAPI: Test Cases/Day1/RunAPI
+
+2022-05-18 06:03:40 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API/GetUserList")): Send request successfully
+
+2022-05-18 06:03:48 - [MESSAGE][INFO] - HAR: E:\Projects\Katalon\May2022_TrainingDemo_1\Reports\20220518_060321\Suite2\20220518_060324\requests\main\0.har
+
+2022-05-18 06:03:49 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-18 06:03:39 - [TEST_SUITE][PASSED] - Suite2: Test Cases/Day1/RunAPI]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="Suite3" tests="2" failures="0" errors="0" time="14.459" skipped="0" timestamp="2022-05-18 06:03:43" hostname="Administrator - host.docker.internal" id="Test Suites/Suite3">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Projects\\Katalon\\May2022_TrainingDemo_1\\Reports\\20220518_060321\\Suite3\\20220518_060326"/>
+         <property name="logFiles" value="E:\\Projects\\Katalon\\May2022_TrainingDemo_1\\Reports\\20220518_060321\\Suite3\\20220518_060326\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - host.docker.internal"/>
+         <property name="os" value="Windows Server 2019 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 101.0.4951.67"/>
+         <property name="hostAddress" value="172.31.16.130"/>
+         <property name="sessionId" value="be870c3727aab3cc902bef089723d88a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=USE_SYSTEM, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows Server 2019"/>
+      </properties>
+      <testcase name="Test Cases/Day1/LoginTest" time="11.438" classname="Test Cases/Day1/LoginTest" status="PASSED">
+         <system-out><![CDATA[2022-05-18 06:03:43 - [TEST_CASE][PASSED] - Test Cases/Day1/LoginTest: Test Cases/Day1/LoginTest
+
+2022-05-18 06:03:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-05-18 06:03:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-05-18 06:03:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-05-18 06:03:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-05-18 06:03:51 - [TEST_STEP][PASSED] - navigateToUrl("https://trytestingthis.netlify.app/"): Navigate to 'https://trytestingthis.netlify.app/' successfully
+
+2022-05-18 06:03:51 - [MESSAGE][PASSED] - Navigate to 'https://trytestingthis.netlify.app/' successfully
+
+2022-05-18 06:03:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Try Testing This/input_Username_uname"), "test"): Text 'test' is set on object 'Object Repository/Page_Try Testing This/input_Username_uname'
+
+2022-05-18 06:03:52 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_Try Testing This/input_Username_uname'
+
+2022-05-18 06:03:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Try Testing This/input_Password_pwd"), "test"): Text 'test' is set on object 'Object Repository/Page_Try Testing This/input_Password_pwd'
+
+2022-05-18 06:03:53 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_Try Testing This/input_Password_pwd'
+
+2022-05-18 06:03:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Try Testing This/input")): Object: 'Object Repository/Page_Try Testing This/input' is clicked on
+
+2022-05-18 06:03:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Try Testing This/input' is clicked on
+
+2022-05-18 06:03:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Login Success/h2_Login Successful )"), "Login Successful :)"): Actual text and expected text of test object 'Object Repository/Page_Login Success/h2_Login Successful )' are matched.
+
+2022-05-18 06:03:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Login Success/h2_Login Successful )' are matched.
+
+2022-05-18 06:03:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-05-18 06:03:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Day1/RunAPI" time="2.447" classname="Test Cases/Day1/RunAPI" status="PASSED">
+         <system-out><![CDATA[2022-05-18 06:03:55 - [TEST_CASE][PASSED] - Test Cases/Day1/RunAPI: Test Cases/Day1/RunAPI
+
+2022-05-18 06:03:55 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API/GetUserList")): Send request successfully
+
+2022-05-18 06:03:57 - [MESSAGE][INFO] - HAR: E:\Projects\Katalon\May2022_TrainingDemo_1\Reports\20220518_060321\Suite3\20220518_060326\requests\main\0.har
+
+2022-05-18 06:03:57 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-18 06:03:43 - [TEST_SUITE][PASSED] - Suite3: Test Cases/Day1/RunAPI]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

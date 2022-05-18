@@ -6,11 +6,14 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>d085246c-d3ea-4c94-820f-275b398455aa</dataFileGUID>
-   <dataSourceUrl></dataSourceUrl>
+   <dataSourceUrl>jdbc:mysql://demo-db-1.cdd8zse79yqc.us-east-1.rds.amazonaws.com:3306/DB1</dataSourceUrl>
    <driver>DBData</driver>
+   <driverClassName></driverClassName>
    <isInternalPath>false</isInternalPath>
-   <query></query>
-   <secureUserAccount>false</secureUserAccount>
+   <password>VGVzdDEyMzQr</password>
+   <query>Select * from Employee</query>
+   <secureUserAccount>true</secureUserAccount>
    <sheetName></sheetName>
+   <user>admin</user>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>
